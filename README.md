@@ -3,7 +3,7 @@
 ## pre-requisites
 
 ```bash
-sudo apt install python3-opencv python3-picamera2 python3-pip
+sudo apt install -y python3-opencv python3-picamera2 python3-pip
 
 pip3 install Flask
 ```
