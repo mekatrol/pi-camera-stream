@@ -3,9 +3,9 @@
 ## pre-requisites
 
 ```bash
-sudo apt install python3-opencv python3-picamera2
+sudo apt install python3-opencv python3-picamera2 python3-pip
 
-pip install Flask
+pip3 install Flask
 ```
 
 ## start on boot
