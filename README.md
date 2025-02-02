@@ -1,5 +1,13 @@
 # pi-camera-stream
 
+## pre-requisites
+
+```bash
+sudo apt install python3-opencv python3-picamera2
+
+pip install Flask
+```
+
 ## start on boot
 
 > sudo nano /etc/systemd/system/pi_camera_stream.service:
