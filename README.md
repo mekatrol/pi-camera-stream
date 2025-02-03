@@ -4,7 +4,8 @@
 
 ```bash
 sudo apt install -y python3-opencv python3-picamera2 python3-pip
-
+```
+```bash
 pip3 install Flask
 ```
 
