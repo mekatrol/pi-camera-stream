@@ -29,7 +29,7 @@ After=network.target
 
 [Service]
 WorkingDirectory=/home/pi/pi-camera-stream/
-ExecStart=/usr/bin/python /home/pi/pi-camera-stream/main.py
+ExecStart=/home/pi/pi-camera-stream/.venv/bin/python3 /home/pi/pi-camera-stream/main.py
 Restart=always
 
 [Install]
