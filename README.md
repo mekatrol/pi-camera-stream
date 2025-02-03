@@ -5,6 +5,16 @@
 ```bash
 sudo apt install -y python3-opencv python3-picamera2 python3-pip
 ```
+
+```
+mkdir pi-camera-stream
+
+cd pi-camera-stream
+
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
 ```bash
 pip3 install Flask
 ```
