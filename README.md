@@ -13,15 +13,14 @@ cd pi-camera-stream
 
 python3 -m venv .venv
 source .venv/bin/activate
-```
 
-```bash
 pip3 install Flask
 ```
 
 ## start on boot
-
-> sudo nano /etc/systemd/system/pi_camera_stream.service:
+```bash
+sudo nano /etc/systemd/system/pi_camera_stream.service
+```
 
 ```ini
 [Unit]
