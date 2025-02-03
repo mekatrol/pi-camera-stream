@@ -14,7 +14,7 @@ cd pi-camera-stream
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip3 install Flask
+pip3 install Flask picamera2
 ```
 
 ## start on boot
